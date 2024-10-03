@@ -1,0 +1,39 @@
+.footer {
+    display              : grid;
+    column-gap           : 3rem;
+    grid-template-columns: 1fr 1fr 3fr 2fr;
+    background-color     : $color-text-heading;
+    color                : $color-white;
+    padding              : 3rem;
+
+    &-heading {
+        color         : var(--Color-Neutral-Text-colorTextLightSolid, #FEFEFD);
+        padding-bottom: 1.4rem;
+        border-bottom : 1px solid $color-white;
+    }
+
+    &-text {
+        padding-top: 1.4rem;
+        color      : $color-white !important;
+    }
+
+    &-button {
+        background-color: #CDCCCB;
+        color           : $color-text;
+    }
+
+    &-input {
+        width: 30rem;
+    }
+
+    &-follow {
+        padding-top: 1rem;
+        display    : flex;
+        gap        : 1rem;
+        align-items: center;
+    }
+
+    @include respond(phone) {
+        display: block;
+    }
+}

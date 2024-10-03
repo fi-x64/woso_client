@@ -1,0 +1,77 @@
+.cert {
+    position: relative;
+    padding : 4rem;
+
+    &-heading {
+        text-align: center;
+    }
+
+    &-subheading {
+        text-align: center;
+    }
+
+    &-brand {
+        display        : flex;
+        justify-content: space-between;
+        transform      : translateX(-3.2rem);
+        gap            : 2.4rem;
+
+        &>* {
+            padding: 2rem;
+        }
+
+        &__item {
+            margin: auto;
+        }
+
+        .item-image {
+            width : 6rem;
+            height: 6rem;
+            margin: auto;
+        }
+
+        .item-text {
+            text-align: center;
+        }
+    }
+
+    &-footer {
+        display        : flex;
+        flex-direction : column;
+        text-align     : center;
+        justify-content: center;
+        padding        : 2rem 0;
+        gap            : 2rem;
+
+
+        &-button {
+            font-size: 2.2rem !important;
+            padding  : 1rem 6rem !important;
+        }
+    }
+
+    &-help {
+        // text-align          : center;
+        display             : block;
+        color               : #005B4C;
+        line-height         : 2.4rem;
+        /* 150% */
+        text-decoration-line: underline;
+    }
+
+    &-frame {
+
+        &-topleft {
+            position: absolute;
+            top     : 0;
+            left    : 0;
+        }
+
+        &-bottomright {
+            position: absolute;
+
+            bottom: 0;
+            right : 0;
+        }
+    }
+}

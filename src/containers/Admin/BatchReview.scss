@@ -1,0 +1,44 @@
+.new-batch-modal {
+    margin-top: 4rem;
+    width     : 60rem !important;
+
+}
+
+.batch-modal-form {
+    display              : grid;
+    grid-template-columns: 1fr 1fr;
+    gap                  : 2rem 4rem;
+}
+
+.success-box {
+    padding         : 1.4rem;
+    text-align      : center;
+    background-color: $green-success;
+    border-radius   : 1rem;
+    margin-bottom   : 1rem;
+    font-size       : 1.4rem;
+    font-weight     : 700;
+    color           : #25580c;
+}
+
+.qrcode-title {
+    font-size : 1.4rem;
+    margin-top: 2rem;
+}
+
+.qrcode-content {
+    margin-top   : 1rem;
+    // display   : flex;
+    gap          : 2rem;
+
+
+    &-img {
+        display: block;
+        margin : auto;
+    }
+
+    &-link {
+        font-size  : 1.4rem;
+        margin-left: 2rem;
+    }
+}

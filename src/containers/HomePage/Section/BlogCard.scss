@@ -1,0 +1,33 @@
+.blog-card {
+    background    : var(--Color-Neutral-Background-colorBgElevated, #FFF);
+    box-shadow    : 0px 3px 8px 0px rgba(0, 0, 0, 0.24);
+    width         : 35rem;
+    padding-bottom: .5rem;
+    cursor        : pointer;
+    transition    : all 0.4;
+
+    &:hover {
+        transform: translate(.3rem, -.3rem);
+    }
+
+    &>*:not(:first-child) {
+        padding: .7rem 1rem;
+    }
+
+    &-info {
+        display        : flex;
+        justify-content: space-between;
+
+        &__name {
+            padding-left: 1rem;
+        }
+    }
+
+    &-button {
+        font-size  : 1.6rem !important;
+        font-style : normal;
+        font-weight: 500;
+        line-height: var(--Font-Line-Height-lineHeight, 24px);
+        padding    : .2rem 1.8rem !important;
+    }
+}

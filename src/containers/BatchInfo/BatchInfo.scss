@@ -1,0 +1,174 @@
+.batch-info {
+    &-heading {
+        padding: 2rem 4rem;
+    }
+
+    &-content {
+        min-height          : 200vh;
+        background          : url('../../assets/img/batch-info/background.jpeg');
+        background-size     : cover;
+        background-repeat   : no-repeat;
+        text-align          : center;
+        // display          : flex;
+        // flex-direction   : column;
+        // gap              : 2rem;
+
+        &-container {
+            display           : flex;
+            gap               : 2rem;
+            // transform      : translateY(12rem);
+            align-items       : center;
+            justify-content   : center;
+
+            @include respond(tab-port) {
+                &>* {
+                    font-size: 2.5rem !important;
+                }
+            }
+
+            @include respond(phone) {
+                &>* {
+                    font-size: 2rem !important;
+                }
+            }
+        }
+
+        &-heading {
+            transform     : translateY(26rem);
+            text-align    : center;
+            padding-bottom: 4rem;
+
+            @include respond(tab-land) {
+                font-size: 5.3rem !important;
+                transform: translateY(22rem);
+            }
+
+            @include respond(tab-port) {
+                font-size: 5.3rem !important;
+                transform: translateY(20rem);
+            }
+
+            @include respond(phone) {
+                font-size: 5.3rem !important;
+                transform: translateY(15rem);
+            }
+        }
+
+        &-text {
+            text-align: right;
+            transform : translateY(24rem);
+
+            &>* {
+                padding: 2.5rem;
+            }
+
+            @include respond(tab-land) {
+                transform: translateY(18rem);
+            }
+
+            @include respond(tab-port) {
+                transform: translateY(16rem);
+            }
+
+            @include respond(phone) {
+                transform: translateY(14rem);
+            }
+        }
+
+        &-info {
+            transform: translateY(24rem);
+
+            text-align: left;
+
+            &>* {
+                padding: 2.5rem;
+            }
+
+            @include respond(tab-land) {
+                transform: translateY(18rem);
+            }
+
+            @include respond(tab-port) {
+                transform: translateY(16rem);
+
+            }
+
+            @include respond(phone) {
+                transform  : translateY(14rem);
+                font-weight: 100 !important;
+            }
+        }
+
+        &-item {
+            display       : flex;
+            gap           : 4rem;
+            // align-items: center;
+            text-align    : center;
+            align-self    : stretch;
+        }
+
+        @include respond(tab-land) {
+            min-height       : 110rem;
+            background       : url('../../assets/img/batch-info/background.jpeg');
+            background-repeat: no-repeat;
+            background-size  : cover;
+        }
+
+        @include respond(tab-port) {
+            min-height       : 105rem;
+            background       : url('../../assets/img/batch-info/background.jpeg');
+            background-repeat: no-repeat;
+            background-size  : cover;
+        }
+
+        @include respond(phone) {
+            min-height       : 90rem;
+            background       : url('../../assets/img/batch-info/background-1.jpeg');
+            background-repeat: no-repeat;
+            background-size  : cover;
+        }
+    }
+
+    &-footer {
+        padding         : 4rem;
+        display         : flex;
+        flex-direction  : column;
+        gap             : 3rem;
+        align-items     : center;
+        background-color: $color-bg-border;
+    }
+}
+
+.batch-cert {
+
+    &-brand {
+        display              : flex;
+        align-items          : center;
+        justify-content      : center;
+        transform            : translateY(26rem);
+        // gap               : 1rem !important;
+
+        @include respond(tab-land) {
+            transform: translateY(18rem);
+        }
+
+        @include respond(tab-port) {
+            transform: translateY(16rem);
+        }
+
+        &>* {
+            padding: 2rem;
+        }
+
+
+        .item-image {
+            width : 8rem;
+            height: 8rem;
+            margin: auto;
+        }
+
+        .item-text {
+            text-align: center;
+        }
+    }
+}

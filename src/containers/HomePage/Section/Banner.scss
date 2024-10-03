@@ -1,0 +1,15 @@
+.banner-carousel {
+    margin       : 0 2rem;
+    border-radius: 2.5rem;
+    overflow     : hidden;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 0 !important;
+    color  : #000;
+}
+
+.slick-dots li.slick-active button:hover {
+    opacity: 0 !important;
+    color  : #000;
+}

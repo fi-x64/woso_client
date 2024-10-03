@@ -1,0 +1,23 @@
+/* AnimatedTextLoop.css */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animated-text-loop {
+  font-size: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  animation: fadeInOut 4s linear infinite; /* Điều chỉnh thời gian hiệu ứng */
+}

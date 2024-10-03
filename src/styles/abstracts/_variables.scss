@@ -1,0 +1,61 @@
+// TEXT COLORS
+$color-text            : #000000E0;
+$color-text-secondary  : #000000A6;
+$color-text-tertiary   : #00000073;
+$color-text-quaternary : #00000040;
+$color-text-light-solid: #ECEDED;
+$color-text-heading    : #43494D;
+$color-text-label      : #656A6D;
+$color-text-description: #898C8F;
+$color-text-disabled   : #AEB1B2;
+$color-text-placeholder: #AEB1B2;
+
+// BACKGROUND COLORS
+$color-bg-container         : #ECEDED;
+$color-bg-elevated          : #ECEDED;
+$color-bg-layout            : #AEB1B2;
+$color-bg-mask              : #00000073;
+$color-bg-spotlight         : #000000E0;
+$color-bg-container-disabled: #00000026;
+$color-bg-text-active       : #00000026;
+$color-bg-text-hover        : #0000000F;
+$color-bg-border            : #ECEDED;
+$green-success              : #b5e69d;
+
+$color-white: #fff;
+$color-black: #000;
+
+// FILL COLORS
+$color-fill               : #00000026;
+$color-fill-secondary     : #0000000F;
+$color-fill-tertiary      : #0000000A;
+$color-fill-quaternary    : #00000005;
+$color-fill-content       : #0000000F;
+$color-fill-content-hover : #00000026;
+$color-fill-alter         : #00000005;
+
+// BORDER COLORS
+$color-border           : #656A6D;
+$color-border-secondary : #898C8F;
+$color-border-colorsplit: #0000000F;
+
+// ICON COLORS
+$color-icon      : #00000073;
+$color-icon-hover: #000000E0;
+
+// FONT
+$default-font-size: 1.6rem;
+$font-family-heading: "Afrah",
+san-serif;
+$font-family-heading-light: "Afrah-Light",
+san-serif;
+$font-family-text: "Montserrat",
+sans-serif;
+$font-family-text-ano: "AnonymousPro",
+sans-serif;
+
+// GRID
+$grid-width           : 114rem;
+$gutter-vertical      : 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal    : 6rem;

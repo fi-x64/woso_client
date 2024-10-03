@@ -1,0 +1,20 @@
+.batch {
+    &-header {
+        display        : flex;
+        justify-content: space-between;
+    }
+
+    &-content {
+        &>* {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    &-export {
+        margin-right    : 2rem;
+        background-color: $color-white !important;
+        color           : $color-text;
+        background-color: #F9F9F6FF;
+        border          : 1px solid;
+    }
+}

@@ -1,0 +1,45 @@
+.contact-us {
+    background-image          : url(../../../assets/img/contact-us/background.png);
+    background-size           : contain;
+    background-repeat         : no-repeat;
+    height                    : 70vh;
+    // width                  : 150e;
+    display                   : flex;
+    align-items               : center;
+    position                  : relative;
+
+    &>* {
+        padding: 4.8rem;
+    }
+
+
+    &-content {
+        flex   : 2;
+        padding: 4rem;
+        color  : $color-white;
+
+        &__heading {
+            color: $color-white !important;
+        }
+
+        &>* {
+            padding: .8rem;
+            color  : $color-white !important;
+        }
+
+        &__list {
+            &>* {
+                padding: .4rem;
+            }
+
+            padding: 2rem;
+            width  : 68%;
+        }
+    }
+
+    &-img {
+        height  : 44rem;
+        position: absolute;
+        right   : 0;
+    }
+}
