@@ -43,31 +43,6 @@ function HomeHeader() {
           <label htmlFor="navi-toggle" className="navigation__button">
             <span className="navigation__icon">&nbsp;</span>
           </label>
-
-          <nav className="navigation__nav">
-            <ul className="navigation__list">
-              <li className="navigation__item">
-                <a href="#" className="navigation__link">
-                  About Us
-                </a>
-              </li>
-              <li className="navigation__item">
-                <a href="#" className="navigation__link">
-                  Our Products
-                </a>
-              </li>
-              <li className="navigation__item">
-                <a href="#" className="navigation__link">
-                  Blogs
-                </a>
-              </li>
-              <li className="navigation__item">
-                <a href="#" className="navigation__link">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-          </nav>
         </div>
         <Link to="/">
           <div className="header-logo"></div>

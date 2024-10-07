@@ -1,0 +1,34 @@
+.service-detail {
+    border-radius: var(--Style-borderRadiusLG, 8px);
+    border       : 1px solid var(--Color-Neutral-Borders-colorBorder, #CDCCCB);
+    background   : var(--Color-Neutral-Background-colorBgContainer, #FEFEFD);
+    padding      : 3.2rem;
+    box-shadow   : 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px 0px rgba(0, 0, 0, 0.08);
+
+
+    &__item {
+        border    : 1px solid var(--Color-Neutral-Borders-colorBorder, #CDCCCB);
+        background: var(--Color-Neutral-Background-colorBgContainer, #FEFEFD);
+        padding   : 3.2rem;
+        box-shadow: 0px 9px 28px 8px rgba(0, 0, 0, 0.05),
+            0px 3px 6px -4px rgba(0, 0, 0, 0.12),
+            0px 6px 16px 0px rgba(0, 0, 0, 0.08);
+        margin    : 2.5rem 0;
+        text-align: center;
+
+        &-price {
+            position   : relative;
+            // width   : max-content;
+
+            &::after {
+                content   : "";
+                position  : absolute;
+                background: black;
+                display   : block;
+                height    : .2rem;
+                width     : 50%;
+                transform : translateX(50%);
+            }
+        }
+    }
+}

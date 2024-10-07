@@ -1,15 +1,15 @@
 .product-card {
-    border-radius: var(--Style-borderRadiusLG, 8px);
-    border       : 1px solid var(--Color-Neutral-Borders-colorBorder, #CDCCCB);
-    background   : var(--Color-Neutral-Background-colorBgContainer, #FEFEFD);
-    width        : 61.6rem;
+    border-radius   : var(--Style-borderRadiusLG, 8px);
+    border          : 1px solid var(--Color-Neutral-Borders-colorBorder, #CDCCCB);
+    background      : var(--Color-Neutral-Background-colorBgContainer, #FEFEFD);
+    // width        : 61.6rem;
     /* Global/boxShadow */
-    padding      : 3.2rem;
-    box-shadow   : 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px 0px rgba(0, 0, 0, 0.08);
-    position     : relative;
-    cursor       : pointer;
-    transition   : all 0.4;
-    text-align   : center;
+    padding         : 3.2rem;
+    box-shadow      : 0px 9px 28px 8px rgba(0, 0, 0, 0.05), 0px 3px 6px -4px rgba(0, 0, 0, 0.12), 0px 6px 16px 0px rgba(0, 0, 0, 0.08);
+    position        : relative;
+    cursor          : pointer;
+    transition      : all 0.4;
+    text-align      : center;
 
     &:hover {
         transform: translate(.3rem, -.3rem);

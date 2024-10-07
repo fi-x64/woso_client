@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // import routes from "./routes";
 import DefaultLayout from "./layouts/DefaultLayout";
-import React, { useCallback, useEffect, useState } from "react";
+import React from "react";
 import HomeHeader from "./containers/HomePage/HomeHeader";
 import HomeFooter from "./containers/HomePage/HomeFooter";
 import {
@@ -44,8 +44,8 @@ function App() {
                     </div>
                   ) : (
                     <>
-                      <HomeHeader />
                       <div>
+                        <HomeHeader />
                         <div className="home-component">
                           <Component></Component>
                         </div>
